@@ -1,0 +1,47 @@
+.orderBar{
+    width: 100%;
+    box-shadow: 0px 4px #f5f5f5;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center; */
+}
+
+.top{
+    color:#808080 ;
+}
+a:link {
+    color: #808080;
+  } 
+
+
+.buttonRight{
+    width: 20%;
+    margin-top: 25px;
+    font-size: small;
+    text-align: center;
+    .backButton{
+        float: left;
+        width: 33%;
+        height: 30px;
+        border: solid 1px #036c31;
+        text-align: center;
+        border-radius: 50px;
+        color:#036c31 ;
+        line-height: 27px;
+    }
+    .ApproveButton{
+        float: right;
+        width: 63%;
+        height: 30px;
+        border: solid 0.5px #036c31;
+        background: #036c31;
+        text-align: center;
+        border-radius: 50px;
+        color:#f1f6f3 ;
+        line-height: 27px;
+    }
+    /* display: flex;
+    justify-content: space-between; */
+}
