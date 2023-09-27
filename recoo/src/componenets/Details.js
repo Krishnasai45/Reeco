@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Details.css';
+import Products from './Products';
 
 const Details =()=>{
     return(
@@ -17,6 +18,7 @@ const Details =()=>{
                     <div className='break'></div>
                     <div className='boxes right'>Status <h4 className='text'>Awating your Approvel</h4></div>
                 </div>
+                <Products/>
             </div>
     )
 }

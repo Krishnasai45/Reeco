@@ -1,0 +1,83 @@
+.ItemsTable,table,thead,tbody{
+    width: 98%;
+}
+table{
+    margin: 0px 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #515050;
+}
+td.brand,td.price{
+    width: 10%;
+}
+td.qty,td.total{
+    width: 8%;
+}
+td.pname{
+   text-align: center;
+}
+td.pname,td.status{
+    width: 25%;
+}
+thead tr{
+    display: flex;
+    justify-content: space-between;
+    border: solid 0.5px #e7e7e7;
+    border-radius: 10px;
+    padding: 5px 0px;
+    font-weight: 500;
+}
+tbody tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.5px #e7e7e7;
+    border-radius: 10px;
+    padding: 5px 0px;
+    font-weight: 500;
+}
+tbody tr td.pname{
+    text-align: start;
+    display: flex;
+}
+td.pname img{
+    margin-right: 5px;
+}
+tbody tr td.status{
+    background: #ececec;
+    border-radius: 5px;
+
+}
+
+.mainStatus{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.leftStatus{
+    width:50% ;
+
+}
+.actions{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    justify-items: center;
+    margin-top: 10px;
+}
+.actions svg{
+    font-size: 20px;
+}
+
+.actions div:hover,.actions svg:hover{
+    cursor: pointer;
+}
+.newStatus{
+    /* max-width: 98%; */
+    margin: 0px 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+
+}

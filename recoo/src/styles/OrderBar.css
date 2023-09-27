@@ -1,6 +1,7 @@
 .orderBar{
     width: 100%;
-    box-shadow: 0px 4px #f5f5f5;
+    /* box-shadow: 0px 4px #f5f5f5; */
+    box-shadow: 0px 0px 8px #ddd;
 }
 .bottom{
     display: flex;
