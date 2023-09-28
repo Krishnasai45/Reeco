@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Search.css';
+import {FiChevronDown,FiPrinter} from "react-icons/fi";
 
 const SearchAndAdd = () => {
     return (
@@ -15,6 +16,7 @@ const SearchAndAdd = () => {
             <div className='add'>
                 <div className='addButton'>Add Item</div>
                 <img src='https://cdn-icons-png.flaticon.com/128/9363/9363759.png' width={30} height={30} alt='add' />
+                {/* <FiPrinter/> */}
             </div>
         </div>
     )

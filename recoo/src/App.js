@@ -10,7 +10,6 @@ function App() {
       <NavBar />
       <OrderBar/>
       <Details/>
-      <div>Assign Ment</div>
 
     </div>
   );

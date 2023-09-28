@@ -1,37 +1,10 @@
-import React, { useState } from 'react'
+import React, {  useEffect, useState } from 'react'
 import '../styles/ItemsTable.css';
 import TableBody from './TableBody';
+import { useSelector } from "react-redux";
 
 const ItemsTable = () => {
-    const data = [{
-        name:'Chicken Breat Fillet, Boneless Mattumarinated 6 Owns Rax,invivid',
-        brand:'HormelBlack labelmany',
-        price:'&60.67/6*1Lb',
-        qty:'0x 6*1Lb',
-        total:'0'
-    },
-    {
-        name:'Chicken Breat Fillet, Boneless Mattumarinated 6 Owns Rax,invivid',
-        brand:'HormelBlack labelmany',
-        price:'&60.67/6*1Lb',
-        qty:'0x 6*1Lb',
-        total:'0'
-    },
-    {
-        name:'Chicken Breat Fillet, Boneless Mattumarinated 6 Owns Rax,invivid',
-        brand:'HormelBlack labelmany',
-        price:'&60.67/6*1Lb',
-        qty:'0x 6*1Lb',
-        total:'0'
-    },
-    {
-        name:'Chicken Breat Fillet, Boneless Mattumarinated 6 Owns Rax,invivid',
-        brand:'HormelBlack labelmany',
-        price:'&60.67/6*1Lb',
-        qty:'0x 6*1Lb',
-        total:'0'
-    }
-]
+    const data = useSelector((state)=>state.reducer.data)
     return (
         <div className='ItemsTable'>
             <table className='table'>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Navbar.css';
+import {FiChevronDown,FiPrinter} from "react-icons/fi";
 
 const NavBar =()=>{
     return(
@@ -17,7 +18,7 @@ const NavBar =()=>{
                     <div className='rightTags'>
                         <ul>
                             <li><img src='https://cdn-icons-png.flaticon.com/128/4647/4647563.png' alt='cart'  width={25} height={25} /></li>
-                            <li><div>Hello, Sai <img src='https://cdn-icons-png.flaticon.com/128/2985/2985150.png' width={15} height={15}/> </div></li>
+                            <li><div>Hello, Sai <FiChevronDown/> </div></li>
                         </ul>
                     </div>
 

@@ -48,12 +48,29 @@
   .editables span{
     margin-top: 10px;
 }
-.editables p{
+.editablesQty{
+    width: 100%;
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-between; 
+}
+
+.plus,.minus{
+    margin-top: 16px;
+    font-size: 18px;
+    background: #00662D;
+    color: white;
+    border: solid 1px #00662D;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.editables p,.editablesQty p{
     font-size: 14px;
     font-weight: 600;
     color: #808080;
 }
-  .editables input{
+  .editables input,.editablesQty input{
     margin-top: 13px;
     background-color: #d0d0f5;
     width: 25%;
